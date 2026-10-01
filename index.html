@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SUPERPOSITION — $SUPER</title>
+<style>
+:root{--bg:#050509;--card:#0d0d15;--purple:#9b6cff;--pink:#ff4fd8;--cyan:#54e8ff;--text:#f7f5ff;--muted:#9d9aaa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% 0,#28104a 0,transparent 35%),#050509;color:var(--text);font-family:Inter,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:55px 55px;mask-image:linear-gradient(to bottom,#000,transparent 75%)}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;background:rgba(5,5,9,.7);backdrop-filter:blur(16px);border-bottom:1px solid #ffffff12}.logo{font-weight:900;letter-spacing:.08em}.logo span{color:var(--purple)}nav a{color:#bbb7c8;text-decoration:none;margin-left:24px;font-size:13px}nav a:hover{color:white}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:120px 7% 70px;position:relative}.orb{position:absolute;width:430px;height:430px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0,#d19cff 4%,#9b6cff 18%,#ff4fd8 40%,transparent 69%);filter:blur(5px);opacity:.5;animation:float 5s ease-in-out infinite}.orb:after{content:"$SUPER";position:absolute;inset:0;display:grid;place-items:center;font-size:65px;font-weight:1000;color:white;text-shadow:0 0 35px #ff6cff;transform:rotate(-9deg)}@keyframes float{50%{transform:translateY(-20px) rotate(5deg);filter:blur(10px)}}
+.hero-content{position:relative;z-index:2}.tag{display:inline-block;border:1px solid #9b6cff66;background:#9b6cff14;color:#c9b4ff;border-radius:999px;padding:7px 13px;font-size:11px;letter-spacing:.16em;font-weight:800}.hero h1{font-size:clamp(65px,13vw,170px);line-height:.8;letter-spacing:-.09em;margin:35px 0 20px;background:linear-gradient(90deg,#fff,#b993ff,#ff7be5);-webkit-background-clip:text;color:transparent;text-shadow:0 0 60px #9b6cff33}.hero p{max-width:620px;margin:auto;color:#b9b4c5;font-size:18px}.buttons{margin-top:30px}.btn{display:inline-block;text-decoration:none;color:white;padding:14px 23px;border-radius:12px;font-weight:800;margin:5px;border:1px solid #ffffff1c}.primary{background:linear-gradient(100deg,var(--purple),var(--pink));box-shadow:0 10px 40px #9b6cff30}.secondary{background:#ffffff08}
+.ticker{border-top:1px solid #ffffff0e;border-bottom:1px solid #ffffff0e;padding:13px;overflow:hidden;white-space:nowrap;color:#777185;font-size:12px;letter-spacing:.16em}.ticker span{margin-right:60px}
+section{max-width:1100px;margin:auto;padding:100px 6%}.eyebrow{color:var(--pink);font-size:11px;font-weight:900;letter-spacing:.2em;text-transform:uppercase}h2{font-size:clamp(40px,7vw,76px);line-height:.95;letter-spacing:-.06em;margin:12px 0 25px}.lead{color:var(--muted);max-width:700px;font-size:17px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:45px}.card{background:linear-gradient(145deg,#ffffff0b,#ffffff03);border:1px solid #ffffff10;border-radius:22px;padding:27px}.card h3{margin:0 0 10px}.card p{color:var(--muted);font-size:14px}.emoji{font-size:30px;margin-bottom:18px}
+.token{display:grid;grid-template-columns:1fr 1fr;gap:16px}.stat{background:var(--card);border:1px solid #ffffff10;border-radius:20px;padding:25px}.stat label{display:block;color:#777282;font-size:11px;text-transform:uppercase;letter-spacing:.15em}.stat strong{display:block;font-size:28px;margin-top:7px}.contract{grid-column:1/-1;word-break:break-all;color:#bcaeff}
+.road{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.phase{border-top:2px solid var(--purple);padding-top:20px}.phase b{font-size:12px;color:var(--purple);letter-spacing:.14em}.phase h3{font-size:25px}
+.disclaimer{color:#686473;font-size:11px;max-width:700px}
+footer{text-align:center;border-top:1px solid #ffffff0d;padding:60px 20px;color:#625d6d;font-size:12px}
+@media(max-width:750px){nav a{display:none}.cards,.road,.token{grid-template-columns:1fr}.hero h1{font-size:76px}.orb{width:300px;height:300px}.orb:after{font-size:45px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">SUPER<span>POSITION</span></div><div><a href="#token">Token</a><a href="#lore">Lore</a><a href="#roadmap">Roadmap</a><a href="#community">Community</a></div></nav>
+
+<header class="hero">
+<div class="orb"></div>
+<div class="hero-content">
+<div class="tag">THE MEME THAT EXISTS IN EVERY STATE</div>
+<h1>$SUPER</h1>
+<p>One coin. Infinite possibilities. Until you check the chart.</p>
+<div class="buttons"><a class="btn primary" href="#buy">BUY $SUPER</a><a class="btn secondary" href="#lore">READ THE LORE ↓</a></div>
+</div>
+</header>
+
+<div class="ticker"><span>⚛ $SUPER</span><span>∞ INFINITE POSSIBILITIES</span><span>🧠 NO FINANCIAL ADVICE</span><span>💎 PURE MEME ENERGY</span><span>⚛ $SUPER</span></div>
+
+<section id="lore">
+<div class="eyebrow">01 — THE LORE</div>
+<h2>It is both<br>up and down.</h2>
+<p class="lead">Before you open the chart, $SUPER is simultaneously the greatest memecoin ever created and a completely ridiculous internet experiment. The act of checking collapses the superposition into one reality.</p>
+<div class="cards">
+<div class="card"><div class="emoji">⚛️</div><h3>SUPERPOSITION</h3><p>The coin exists in multiple possible states until someone checks the chart.</p></div>
+<div class="card"><div class="emoji">📈</div><h3>GREEN STATE</h3><p>Everyone is a genius. The group chat is suddenly full of rocket emojis.</p></div>
+<div class="card"><div class="emoji">📉</div><h3>RED STATE</h3><p>Everyone becomes a philosopher. “It's actually about the technology.”</p></div>
+</div>
+</section>
+
+<section id="token">
+<div class="eyebrow">02 — THE TOKEN</div>
+<h2>Simple. Stupid.<br>Super.</h2>
+<div class="token">
+<div class="stat"><label>Token</label><strong>$SUPER</strong></div>
+<div class="stat"><label>Network</label><strong>Solana ⚡</strong></div>
+<div class="stat"><label>Total Supply</label><strong>1,000,000,000</strong></div>
+<div class="stat"><label>Tax</label><strong>0 / 0</strong></div>
+<div class="stat"><label>Contract</label><strong class="contract">COMING SOON — OFFICIAL CA</strong></div>
+</div>
+</section>
+
+<section id="roadmap">
+<div class="eyebrow">03 — ROADMAP</div>
+<h2>Three states.<br>No promises.</h2>
+<div class="road">
+<div class="phase"><b>STATE 01</b><h3>Collapse</h3><p class="lead">Launch the coin. Make the meme. Find the community.</p></div>
+<div class="phase"><b>STATE 02</b><h3>Entangle</h3><p class="lead">Memes everywhere. Community raids. Maximum quantum nonsense.</p></div>
+<div class="phase"><b>STATE 03</b><h3>Superposition</h3><p class="lead">Build the brand, expand the lore and see what happens.</p></div>
+</div>
+</section>
+
+<section id="buy">
+<div class="eyebrow">04 — BUY $SUPER</div>
+<h2>Choose your<br>reality.</h2>
+<p class="lead">Buy $SUPER through one of the trading platforms below. Once the official token contract is live, these buttons can be changed to point directly to the $SUPER token page.</p>
+<div class="buttons">
+<a class="btn primary" href="https://pump.fun/" target="_blank" rel="noopener noreferrer">⚡ PUMP.FUN</a>
+<a class="btn secondary" href="https://fomo.family/" target="_blank" rel="noopener noreferrer">🔥 FOMO</a>
+</div>
+<p class="disclaimer">Always verify the official contract address before trading. Crypto assets are highly speculative and can lose value.</p>
+</section>
+
+<section id="community">
+<div class="eyebrow">05 — COMMUNITY</div>
+<h2>Pick your reality.</h2>
+<p class="lead">The only thing more powerful than quantum mechanics is a group chat with too much conviction.</p>
+<div class="buttons">
+<a class="btn primary" href="https://pump.fun/" target="_blank" rel="noopener noreferrer">⚡ BUY $SUPER ON PUMP.FUN</a>
+<a class="btn secondary" href="https://fomo.family/" target="_blank" rel="noopener noreferrer">🔥 BUY $SUPER ON FOMO</a>
+</div>
+<div class="buttons">
+<a class="btn secondary" href="#" aria-label="X community link">𝕏 JOIN THE COMMUNITY</a>
+<a class="btn secondary" href="#" aria-label="Telegram community link">◎ TELEGRAM</a>
+</div>
+<p class="disclaimer">$SUPER is a meme token created for entertainment and community participation. Nothing on this website is financial, investment, legal or tax advice. Crypto assets are highly speculative and can lose value. Do your own research.</p>
+</section>
+
+<footer>SUPERPOSITION © 2026 — EXISTING IN ALL POSSIBLE MEME STATES.</footer>
+</body>
+</html>
